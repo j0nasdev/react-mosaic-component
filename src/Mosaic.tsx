@@ -144,7 +144,7 @@ export class MosaicWithoutDragDropContext<T extends MosaicKey = string> extends 
     if (isUncontrolled(this.props)) {
       return this.state.currentNode;
     } else {
-      return this.props.value;
+      return (this.props as MosaicControlledProps<T>).value;
     }
   }
 
