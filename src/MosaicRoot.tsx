@@ -25,7 +25,7 @@ export class MosaicRoot<T extends MosaicKey> extends React.PureComponent<MosaicR
     node: MosaicNode<T>,
     boundingBox: BoundingBox,
     path: MosaicBranch[],
-  ): JSX.Element | JSX.Element[] {
+  ): React.JSX.Element | React.JSX.Element[] {
     if (isParent(node)) {
       const splitPercentage = node.splitPercentage == null ? 50 : node.splitPercentage;
       const { first, second } = BoundingBox.split(boundingBox, splitPercentage, node.direction);
@@ -86,6 +86,6 @@ export class MosaicRoot<T extends MosaicKey> extends React.PureComponent<MosaicR
   };
 }
 
-function nonNullElement(x: JSX.Element | JSX.Element[] | null): x is JSX.Element | JSX.Element[] {
+function nonNullElement(x: React.JSX.Element | React.JSX.Element[] | null): x is React.JSX.Element | React.JSX.Element[] {
   return x !== null;
 }

@@ -46,7 +46,7 @@ export interface MosaicBaseProps<T extends MosaicKey> {
    * View to display when the current value is `null`
    * default: Simple NonIdealState view
    */
-  zeroStateView?: JSX.Element;
+  zeroStateView?: React.JSX.Element;
   /**
    * Override the mosaicId passed to `react-dnd` to control how drag and drop works with other components
    * Note: does not support updating after instantiation
