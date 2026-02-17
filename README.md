@@ -1,7 +1,13 @@
-# react-mosaic
+# react-mosaic (Fork)
 
-[![CircleCI](https://circleci.com/gh/nomcopter/react-mosaic/tree/master.svg?style=svg)](https://circleci.com/gh/nomcopter/react-mosaic/tree/master)
-[![npm](https://img.shields.io/npm/v/react-mosaic-component.svg)](https://www.npmjs.com/package/react-mosaic-component)
+[![npm](https://img.shields.io/npm/v/@jonasdev/react-mosaic-component.svg)](https://www.npmjs.com/package/@jonasdev/react-mosaic-component)
+
+> **Note:** This is a fork of [react-mosaic-component](https://github.com/nomcopter/react-mosaic) maintained by @j0nasDev.
+>
+> **Changes:**
+> * Fixes `ReactCurrentDispatcher` error for React 18/19 compatibility.
+> * Significantly expanded test suite (from ~50 to ~400 tests).
+> * Updated internal dependencies and peer packages for better stability.
 
 react-mosaic is a full-featured React Tiling Window Manager meant to give a user complete control over their workspace.
 It provides a simple and flexible API to tile arbitrarily complex react components across a user's view.
@@ -20,7 +26,7 @@ The core of react-mosaic's operations revolve around the simple binary tree [spe
 
 ### Installation
 
-1.  `yarn add react-mosaic-component`
+1.  `npm install @jonasdev/react-mosaic-component`
 1.  Make sure `react-mosaic-component.css` is included on your page.
 1.  Import the `Mosaic` component and use it in your app.
 1.  (Optional) Install Blueprint

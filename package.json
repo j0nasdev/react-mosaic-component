@@ -9,9 +9,11 @@
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nomcopter/react-mosaic.git"
+    "url": "https://github.com/j0nasDev/react-mosaic-component"
   },
-  "funding": "https://github.com/nomcopter/react-mosaic?sponsor=1",
+  "bugs": {
+    "url": "https://github.com/j0nasDev/react-mosaic-component/issues"
+  },
   "keywords": [
     "ui",
     "react",
