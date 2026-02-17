@@ -1,6 +1,6 @@
 # react-mosaic (Fork)
 
-[![npm](https://img.shields.io/npm/v/@jonasdev/react-mosaic-component.svg)](https://www.npmjs.com/package/@jonasdev/react-mosaic-component)
+[![npm](https://img.shields.io/npm/v/@j0nasdev/react-mosaic-component.svg)](https://www.npmjs.com/package/@j0nasdev/react-mosaic-component)
 
 > **Note:** This is a fork of [react-mosaic-component](https://github.com/nomcopter/react-mosaic) maintained by @j0nasDev.
 >
